@@ -1,5 +1,13 @@
 use std::net::TcpStream;
+use std::io::{Read,Write};
+use std::str;
 fn main() {
-    let _stream = TcpStream::connect("localhost:3008").unwrap();
+    let mut stream = TcpStream::connect("localhost:3009").unwrap();
     println!("Hello, world!");
+    println!("11{:?}",stream);
+    stream.write("hello".as_bytes()).unwrap();
+    let mut buffer=[0;5];
+    stream.read(&mut buffer).unwrap();
+    println!("Response from server:{:?}",str::from_utf8(&buffer).unwrap());
+
 }
