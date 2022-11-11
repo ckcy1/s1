@@ -12,7 +12,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bcc9a4-88ad-43ba-b592-5f66e8f2026b" name="默认变更列表" comment="链接测试" />
+    <list default="true" id="d1bcc9a4-88ad-43ba-b592-5f66e8f2026b" name="默认变更列表" comment="链接测试">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpclient/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/tcpclient/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcpserver/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/tcpserver/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +53,7 @@
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
       <option name="command" value="run" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/tcpserver" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
@@ -69,6 +73,7 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$PROJECT_DIR$/../.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,6 +84,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668165924778</updated>
       <workItem from="1668165928159" duration="1846000" />
+      <workItem from="1668172505535" duration="4370000" />
+      <workItem from="1668177018239" duration="1487000" />
     </task>
     <task id="LOCAL-00001" summary="链接测试">
       <created>1668167258025</created>
@@ -103,6 +110,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
