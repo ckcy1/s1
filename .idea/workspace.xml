@@ -12,10 +12,18 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bcc9a4-88ad-43ba-b592-5f66e8f2026b" name="默认变更列表" comment="链接测试">
+    <list default="true" id="d1bcc9a4-88ad-43ba-b592-5f66e8f2026b" name="默认变更列表" comment="底层">
+      <change afterPath="$PROJECT_DIR$/http/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/src/httprequest.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/src/httprequest/tests.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/src/httpresponse.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpserver/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpserver/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/s1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/s1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcpclient/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/tcpclient/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcpserver/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/tcpserver/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +32,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -55,7 +70,35 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cargo.Test httprequest::tests">
+    <configuration name="Expand http::httprequest" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="expand --lib --color=always --theme=GitHub --tests httprequest" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/http" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Expand http::httprequest::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="expand --lib --color=always --theme=GitHub --tests httprequest::tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/http" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
       <option name="command" value="run" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/tcpserver" />
@@ -70,11 +113,28 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Test httprequest::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package http --lib httprequest::tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test httprequest::tests" />
+        <item itemvalue="Cargo.Expand http::httprequest" />
+        <item itemvalue="Cargo.Expand http::httprequest" />
+        <item itemvalue="Cargo.Expand http::httprequest::tests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$PROJECT_DIR$/../.cargo/bin" />
@@ -91,6 +151,9 @@
       <workItem from="1668165928159" duration="1846000" />
       <workItem from="1668172505535" duration="4370000" />
       <workItem from="1668177018239" duration="1487000" />
+      <workItem from="1668216544136" duration="1136000" />
+      <workItem from="1668217729589" duration="5117000" />
+      <workItem from="1668229764554" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="链接测试">
       <created>1668167258025</created>
@@ -99,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668167258025</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="底层">
+      <created>1668180509462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668180509462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +190,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="链接测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="链接测试" />
+    <MESSAGE value="底层" />
+    <option name="LAST_COMMIT_MESSAGE" value="底层" />
   </component>
 </project>
